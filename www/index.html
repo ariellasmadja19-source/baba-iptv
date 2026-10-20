@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr" data-theme="chocolate" style="background:#0b1424;color:#eef">
+  <head><script src="./polyfills.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1920, initial-scale=1" />
+    <title>Baba IPTV</title>
+    <script src="$WEBAPIS/webapis/webapis.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        try {
+          var keys = ["MediaPlay", "MediaPause", "MediaStop", "MediaFastForward", "MediaRewind", "MediaPlayPause", "ChannelUp", "ChannelDown"];
+          if (window.tizen && tizen.tvinputdevice) {
+            keys.forEach(function (k) { try { tizen.tvinputdevice.registerKey(k); } catch (e) {} });
+          }
+        } catch (e) {}
+        // La touche Retour (10009) est transmise par défaut ; elle est gérée par l'application.
+      });
+    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" />
+    
+    
+  <link rel="stylesheet" href="./style.css" /></head>
+  <body>
+    <div id="root"></div>
+  <script defer src="./main.js"></script></body>
+</html>

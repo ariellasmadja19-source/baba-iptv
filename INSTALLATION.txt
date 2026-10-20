@@ -1,0 +1,29 @@
+Baba IPTV — Installation sur TV Samsung (Tizen 9.0, ex. UE75DU7100UXSQ)
+
+1. Sur la TV : Applications > tapez 1 2 3 4 5 sur la télécommande > Mode développeur ON,
+   saisissez l'adresse IP de votre ordinateur, puis redémarrez la TV.
+2. Sur l'ordinateur : installez Tizen Studio + extensions "Samsung TV Extensions" et
+   "Samsung Certificate Extension" (Package Manager).
+3. Device Manager : connectez la TV avec son adresse IP (même réseau Wi-Fi).
+4. Certificate Manager : créez un certificat "Samsung" de type TV (compte Samsung requis),
+   la TV connectée sera ajoutée automatiquement (DUID).
+5. File > Import > Tizen > Tizen Project : choisissez ce dossier décompressé
+   (index.html et config.xml sont à la racine).
+6. Clic droit sur le projet > Build Signed Package, puis Run As > Tizen Web Application.
+
+Ligne de commande (alternative) :
+  tizen package -t wgt -s VOTRE_PROFIL -- ./
+  tizen install -n BabaIPTV.wgt -t VOTRE_TV
+
+Télécommande : flèches = déplacer, OK = valider, Retour = revenir/fermer,
+touches média = lecture/pause/avance/retour, CH+/CH- = chaîne suivante/précédente.
+
+Version 10 : catalogues paginés de dix titres (5 × 2), lecteur avec sauts 10/30 s,
+Recommencer, langues/sous-titres, minuteur de veille et statistiques.
+Les sauts de 1 et 10 minutes restent dans « Sauts longs ».
+Le casting affiche les portraits et personnages uniquement si le fournisseur les fournit ;
+sinon les initiales et le nom sont affichés. Aucun portrait ou personnage n'est inventé.
+Le dossier source/ contient le projet modifiable dans VS Code, sans dépendances ni builds.
+Pour reconstruire : bun install, puis bun run build:tizen dans source/.
+Les fichiers à la racine constituent l'export TV non signé ; votre certificat Samsung
+personnel et le DUID de la TV restent nécessaires pour générer le paquet installable.

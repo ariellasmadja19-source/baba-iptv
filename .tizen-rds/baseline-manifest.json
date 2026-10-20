@@ -1,0 +1,76 @@
+{
+  "deployId": 1,
+  "projectDir": "c:\\Users\\elie-\\Desktop\\BabaIPTV-tizen_v55",
+  "timestamp": "2026-10-20T17:59:10.223Z",
+  "hashAlgorithm": "xxh3-128",
+  "input": {
+    "style.css": {
+      "hash": "c84e454cd8a63473d5387c31436be53a"
+    },
+    "polyfills.js": {
+      "hash": "a7a6706ce378fbcdb4e31a4cdc1e2ed9"
+    },
+    "main.js": {
+      "hash": "565a5446a16e14d6bb5f04540e529c9d"
+    },
+    "INSTALLATION.txt": {
+      "hash": "99d311ecc19a838b219760cc35dd687f"
+    },
+    "index.html": {
+      "hash": "746bc4cbbc0759f8e57c014e5345ea71"
+    },
+    "icon.png": {
+      "hash": "738fd205d5bab1432227257da9a86301"
+    },
+    "config.xml": {
+      "hash": "d459fdb550fab7d483e0435e8338ef8b"
+    },
+    "assets/poster-strip.jpg": {
+      "hash": "b1733654a9915f8fa95daabe48f7582b"
+    },
+    "assets/logo.png": {
+      "hash": "520823c8a2107ad3a59c9ff3ecc36004"
+    },
+    "assets/hero.jpg": {
+      "hash": "026e47e745ec512f031f461b516036cb"
+    },
+    "assets/connect-hall.jpg": {
+      "hash": "a95908d7b486c80bc25c0473096908a1"
+    }
+  },
+  "output": {
+    "Debug/projects/BabaIPTV-tizen_v55/style.css": {
+      "hash": "c84e454cd8a63473d5387c31436be53a"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/polyfills.js": {
+      "hash": "a7a6706ce378fbcdb4e31a4cdc1e2ed9"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/main.js": {
+      "hash": "565a5446a16e14d6bb5f04540e529c9d"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/INSTALLATION.txt": {
+      "hash": "99d311ecc19a838b219760cc35dd687f"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/index.html": {
+      "hash": "746bc4cbbc0759f8e57c014e5345ea71"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/icon.png": {
+      "hash": "738fd205d5bab1432227257da9a86301"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/config.xml": {
+      "hash": "d459fdb550fab7d483e0435e8338ef8b"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/assets/poster-strip.jpg": {
+      "hash": "b1733654a9915f8fa95daabe48f7582b"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/assets/logo.png": {
+      "hash": "520823c8a2107ad3a59c9ff3ecc36004"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/assets/hero.jpg": {
+      "hash": "026e47e745ec512f031f461b516036cb"
+    },
+    "Debug/projects/BabaIPTV-tizen_v55/assets/connect-hall.jpg": {
+      "hash": "a95908d7b486c80bc25c0473096908a1"
+    }
+  }
+}

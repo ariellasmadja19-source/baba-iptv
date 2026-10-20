@@ -1,0 +1,51 @@
+{
+  "projectDir": "c:\\Users\\elie-\\Desktop\\BabaIPTV-tizen_v55",
+  "deploys": {
+    "next": [
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/assets/connect-hall.jpg",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/assets/hero.jpg",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/assets/logo.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/assets/poster-strip.jpg",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/config.xml",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/index.html",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/INSTALLATION.txt",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/main.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/polyfills.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/BabaIPTV-tizen_v55/style.css",
+        "type": "add"
+      }
+    ]
+  }
+}
